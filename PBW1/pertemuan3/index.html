@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan3</title>
+</head>
+<body>
+    <center><h1>Membuat Tabel</h1></center>
+    <hr>
+    <table border="2px" cellpadding="10px" cellspacing="10px"><!--border = garis luar, spacing = jarak tiap kolom-->
+        <tr>
+            <td colspan="2">test colspan</td> <!--fungsi menggabungkan 2 tabel-->
+        </tr>
+        <tr>
+            <td rowspan="2">tes rowspan</td>
+        </tr>
+        <tr><!--tr = table row, td = table data-->
+            <td>baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+            <td>baris 1 kolom 3</td>
+        </tr>
+        <tr>
+            <td>baris 2 kolom 1</td>
+            <td>baris 2 kolom 2</td>
+            <td>baris 2 kolom 3</td>
+        </tr>
+
+        <!--tes Thead= untuk kepala tabel/namanya, tbody = isi tabel, tfoot = untuk total,dll-->
+        <table border="3px">
+            <thead>
+                <tr>
+                    <th>judul 1</th>
+                    <th>judul 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>data 1</td>
+                    <td>data 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="2">total</td>
+            </tfoot>
+        </table>
+
+    </table>
+</body>
+</html>
