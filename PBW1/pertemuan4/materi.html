@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 4</title>
+</head>
+<body>
+    <center>
+        <h1>form pada HTML</h1>
+        <hr>
+    </center>
+        <!--Membuat Form-->
+        <form action="" method="POST">
+            <!--input text-->
+            <label for="">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan Nama Anda">
+            <br>
+            <br>
+            <label for="username">username</label><!--Bisa juga pake email tapi harus pakai @-->
+            <input type="text" id="username" name="username" placeholder="Masukkan Username">
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" placeholder="password">
+
+            <!--RADIO BUTTON-->
+            <p>jenis kelamin</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Pria</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Wanita</label>
+            <br>
+
+            <!--CHECHBOX BUTTON-->
+            <p>Hobi</p>
+            <input type="checkbox" name="hobby" id="music" value="music">
+            <label for="music">Musik</label>
+            <input type="checkbox" name="hobby" id="game" value="game">
+            <label for="game">Gaming</label>
+            <br>
+
+            <!--DROPDOWN-->
+            <label for="role">Pilih role</label>
+            <select name="role" id="role">
+                <option value="jungle">Jungle</option>
+                <option value="xp">XP</option>
+                <option value="gold">Gold</option>
+                <option value="roam">Roam</option>
+                <option value="mid">Mid</option>
+            </select>
+            <br>
+            <br>
+
+            <!--DATE-->
+            <label for="birthday">Tanggal Lahir</label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <br>
+
+            <!--FILE-->
+            <label for="fileupload">Unggah File</label>
+            <input type="file" name="fileupload" id="fileupload">
+            <br>
+            <br>
+
+            <!--Textarea-->
+            <label for="comments">Komentar : </label>
+            <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Masukkan komentarmu"></textarea>
+            <br>
+            <br>
+
+            <!--SUBMIT-->
+            <input type="submit" name="submit" id="submit" value="kirim">
+            <br>
+            <br>
+
+            <!--Pengelompokan dengan Fieldset-->
+            <fieldset>
+                <legend>Informasi Pribadi</legend>
+
+                <label for="name"> Nama: </label>
+                <input type="text" name="name" id="name"> <br>
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+
+        </form>
+</body>
+</html>

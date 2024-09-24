@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan membuat formulir</title>
+</head>
+<body>
+    <center>
+        <h1>LATIHAN</h1>
+        <hr>
+
+    </center>
+    <fieldset>
+        <legend>Informasi Pribadi</legend>
+
+        <label for="name">Nama Lengkap: </label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="birthday">Tanggal Lahir</label>
+        <input type="date" name="birthday" id="birthday">
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Informasi Lainnya</legend>
+        <p>jenis kelamin</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Pria</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Wanita</label>
+        <br>
+        <label for="city">Pilih Kota</label>
+            <select name="city" id="city">
+                <option value="Bogor">Bogor</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Jogja">Jogja</option>
+                <option value="Bali">Bali</option>
+            </select>
+            <br>
+            <label for="comments">Komentar : </label>
+            <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Masukkan komentarmu"></textarea>
+            <br>
+            <label for="fileupload">Unggah File</label>
+            <input type="file" name="fileupload" id="fileupload">
+            <br>
+    </fieldset>
+    <br>
+    <input type="submit" name="submit" id="submit" value="kirim">
+</body>
+</html>
