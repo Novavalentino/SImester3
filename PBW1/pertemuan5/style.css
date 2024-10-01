@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(160, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.container {
+    background-color: rgb(204, 195, 195);
+    flex-direction: column;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+aside {
+    width: 30%;
+}
+.main-photo{
+    width: 350px;
+    height: auto;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+
+.main-content{
+    flex: 1;
+    width: 70%;
+}
+
+section {
+    background-color: azure;
+    padding: 20px;
+    border-top: 1px;
+    border-radius: 2%;
+}
+
+section h2{
+    color: red;
+    margin-top: 0;
+}

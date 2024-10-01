@@ -1,0 +1,38 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.nav-container {
+    background-color: beige;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav > span {
+    width: fit-content;
+    background-color: azure;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.container {
+    background-color: brown;
+    height: fit-content;
+    display: flex;
+}
+
+aside{
+    background-color: azure;
+    width: 20%;
+}
