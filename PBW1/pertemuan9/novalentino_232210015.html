@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator minuman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Kalkulator Minuman</h2>
+    <h3>Nova Valentino Lambert / 232210015</h3>
+    <center>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Minuman</th>
+                    <th>Harga (Rp)</th>
+                    <th>Jumlah</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Kopi</td>
+                    <td>5000</td>
+                    <td><input type="number" id="kopi" value="0" min="0"></td>
+                    <td id="totalkopi">0</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Teh</td>
+                    <td>3000</td>
+                    <td><input type="number" name="teh" id="teh" value="0" min="0"></td>
+                    <td id="totalteh">0</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Jus Jeruk</td>
+                    <td>7000</td>
+                    <td><input type="number" name="jusjeruk" id="jusjeruk" value="0" min="0"></td>
+                    <td id="totaljusjeruk">0</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>Chocolatos Coklat</td>
+                    <td>6000</td>
+                    <td><input type="number" name="chococok" id="chococok" value="0" min="0"></td>
+                    <td id="totalchococok">0</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td>Matcha</td>
+                    <td>10000</td>
+                    <td><input type="number" name="matcha" id="matcha" value="0" min="0"></td>
+                    <td id="totalmatcha">0</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td>Es Doger</td>
+                    <td>10000</td>
+                    <td><input type="number" name="doger" id="doger" value="0" min="0"></td>
+                    <td id="totaldoger">0</td>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td>Thai Tea</td>
+                    <td>10000</td>
+                    <td><input type="number" name="thaitea" id="thaitea" value="0" min="0"></td>
+                    <td id="totalthaitea">0</td>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <td>Pop Ice</td>
+                    <td>5000</td>
+                    <td><input type="number" name="popice" id="popice" value="0" min="0"></td>
+                    <td id="totalpopice">0</td>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <td>Susu</td>
+                    <td>5000</td>
+                    <td><input type="number" name="susu" id="susu" value="0" min="0"></td>
+                    <td id="totalsusu">0</td>
+                </tr>
+                <tr>
+                    <th>10</th>
+                    <td>Cola</td>
+                    <td>8000</td>
+                    <td><input type="number" name="cola" id="cola" value="0" min="0"></td>
+                    <td id="totalcola">0</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Pembelian</td>
+                    <td id="totaljumlah">0</td>
+                    <td id="totalbeli">0</td>     
+                </tr>
+                <tr>
+                    <td colspan="3">Total Pembayaran + ppn 10%</td>
+                    <td colspan="2" id="totalbayar">0</td>
+                </tr>
+            </tfoot>
+        
+            
+        </table>
+    </center>
+    <br>
+    <button onclick="hitungTotal()">Hitung Total</button>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
