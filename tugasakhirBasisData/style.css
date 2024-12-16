@@ -1,0 +1,45 @@
+body {
+    justify-items: center;
+    gap: 10px;
+}
+
+fieldset {
+    margin-top: 90px;
+    background-color: wheat;
+    text-align: left;
+}
+
+legend {
+    background-color: black;
+    color: wheat;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 15px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){
+    background-color:  whitesmoke;;
+}
+
+thead, tfoot td[colspan] {
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
+
+input[type="number"]{
+    background-color: rgb(245, 230, 201);
+}
